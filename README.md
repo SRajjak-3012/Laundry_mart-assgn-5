@@ -17,4 +17,6 @@ Use viewport for as the page not scroll.
 Not used Flex.
 
 # Deploy in GitHub :
-Create a New Repository --> add description --> make Public/Private (as you need) --> Add ReadMe file(its useful) --> Create Repository --> Upload files ---> Update readme file --> after any small changes must commit changes --> Go to settings --> 
+Create a New Repository --> add description --> make Public/Private (as you need) --> Add ReadMe file(its useful) --> Create Repository --> Upload files ---> Update readme file --> after any small changes must commit changes --> Go to settings --> pacheck the dot ges --> select branch --> Go back in repository --> Check yello dot & press for update--> Go back settings page ,now you get the deploy link.
+
+my Deployed link : 

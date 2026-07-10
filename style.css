@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Nav_Bar Starts */
+
+nav{
+    position:relative;
+    width:100%;
+    height:10vh;
+}
+
+/* Logo */
+.logo{
+    position:absolute;
+    left:20px;
+    top:60%;
+    transform:translateY(-50%);
+}
+
+.logo img{
+    width:80px;
+    height:80px;
+}
+
+/* Navigation Menu */
+nav ul{
+    list-style:none;
+    text-align:center;
+    line-height:10vh;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:0 20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+}
+
+a:hover{
+    color: #ff2a04;
+}
+
+/* User section */
+.user{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.user span{
+    margin-left:8px;
+    font-size:18px;
+    vertical-align:middle;
+}
+
+/* HERO SECTION  */
+
+.container{
+    width:100%;
+    height:90vh;
+    font-size:0; 
+}
+
+/* Left block */
+.left{
+    display:inline-block;
+    width:50%;
+    height:100%;
+    vertical-align:top;
+    padding:10vh 5vw;
+    font-size:16px;
+}
+
+.left h1{
+    font-size:50px;
+    margin-bottom:25px;
+}
+
+.left h2{
+    font-size:40px;
+    margin-bottom:25px;
+}
+
+.left p{
+    font-size:14px;
+    line-height:14px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom:35px;
+    color: #4b4a4a;
+}
+
+    /*left div_Button */
+.left button{                                        
+    background-color: rgb(250, 139, 139);
+    padding:15px 35px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* Right */
+.right{
+    display:inline-block;
+    width:50%;
+    height:95%;
+    vertical-align:top;
+    text-align:center;
+    font-size:16px;
+}
+
+.right img{
+    width:80%;
+    height:80%;
+    margin-top:5%;
+    object-fit:contain;
+}
+
+.username {
+    background-color: rgb(169, 245, 245);
+    padding:10px 10px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    /* border: 3px solid #1d12f8; */
+}
+
+#id1{
+    color: #1d12f8;
+}
+
+#id2{
+    color: #ff2a04;
+}
+
+#id3{
+    color: rgb(2, 203, 248);
+}
+#id4{
+    color: #aaa6a6;
+    /* background-color: rgb(251, 243, 26); */
+}
